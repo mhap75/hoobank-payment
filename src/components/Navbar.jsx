@@ -42,7 +42,7 @@ const NavLinks = ({ containerClasses, innerClasses = "" }) => (
 		{navLinks.map((nL, ix) => (
 			<li
 				key={nL.id}
-				className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
+				className={`font-normal cursor-pointer text-[16px] ${
 					ix === navLinks.length - 1 ? "mr-0" : innerClasses
 				}`}
 			>

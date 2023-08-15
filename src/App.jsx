@@ -12,7 +12,7 @@ import {
 } from "./components";
 
 const App = () => (
-	<main className="bg-primary w-full overflow-hidden">
+	<main className="bg-primary w-full overflow-hidden text-white font-poppins">
 		<div className="paddingX flexCenter">
 			<div className="boxWidth">
 				<Navbar />
