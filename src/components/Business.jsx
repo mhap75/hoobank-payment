@@ -3,7 +3,7 @@ import { Button } from "./";
 
 const FeatureCard = ({ icon, title, content }) => (
 	<div className="flex p-6 rounded-[20px] group-last:mb-6 mb-0 feature-card">
-		<div className="w-[64px] aspect-square rounded-full flexCenter bg-dimBlue">
+		<div className="w-[64px] h-[62px] rounded-full flexCenter bg-dimBlue">
 			<img
 				src={icon}
 				alt={title}
@@ -23,7 +23,7 @@ const FeatureCard = ({ icon, title, content }) => (
 
 const Business = () => {
 	return (
-		<section id="features" className="layout-section">
+		<section id="features" className="layout-section gap-5">
 			<div className="sectionInfo">
 				<h2 className="heading2">
 					You do the business,

@@ -46,7 +46,7 @@ const Hero = () => (
 			</div>
 			<div className="animate-slow-pulse absolute w-[40%] h-[35%] top-0 pink__gradient" />
 			<div className="animate-slow-pulse absolute w-[80%] h-[80%] bottom-40 z-[1] rounded-full white__gradient" />
-			<div className="absolute w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+			<div className="absolute w-1/2 h-1/2 right-20 bottom-20 blue__gradient" />
 		</div>
 		<div className="ss:hidden flexCenter">
 			<GetStarted />
