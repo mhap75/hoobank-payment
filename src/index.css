@@ -66,6 +66,28 @@
   }
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #084f72 #00000d;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #00000d;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #084f72;
+    border-radius: 10px;
+    border: 0px none #000000;
+  }
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
