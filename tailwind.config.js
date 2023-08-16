@@ -12,6 +12,9 @@ export default {
 			fontFamily: {
 				poppins: ["Poppins", "sans-serif"],
 			},
+			animation: {
+				"slow-pulse": "pulse 7s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+			},
 		},
 		screens: {
 			xs: "480px",
