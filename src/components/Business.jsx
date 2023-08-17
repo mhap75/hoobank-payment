@@ -2,7 +2,7 @@ import { features } from "../constants";
 import { Button, H2 } from "./";
 
 const FeatureCard = ({ icon, title, content }) => (
-	<div className="flex p-6 rounded-[20px] group-last:mb-6 mb-0 feature-card items-center gap-2">
+	<div className="flex p-6 rounded-[20px] last:mb-6 mb-0 feature-card items-center gap-2">
 		<div className="w-[64px] h-[62px] rounded-full flexCenter bg-dimBlue">
 			<img
 				src={icon}
@@ -37,7 +37,7 @@ const Business = () => {
 				<Button classes="mt-10">Get Started</Button>
 			</div>
 
-			<div className="sectionImg flex-col group">
+			<div className="sectionImg flex-col">
 				{features.map((f) => (
 					<FeatureCard key={f.id} {...f} />
 				))}
