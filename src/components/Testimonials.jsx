@@ -17,7 +17,7 @@ const Testimonials = () => {
 				</div>
 			</div>
 
-			<div className="flex flex-wrap justify-center sm:justify-start w-full feedback-container relative z-[1]">
+			<div className="flex flex-wrap !justify-center sm:justify-start w-full feedback-container relative z-[1] sm:gap-10 my-5">
 				{feedback.map((f) => (
 					<FeedbackCard key={f.id} {...f} />
 				))}
@@ -29,7 +29,7 @@ const Testimonials = () => {
 export default Testimonials;
 
 const FeedbackCard = ({ content, name, title, img }) => (
-	<div className="flex flex-col justify-between px-10 py-12 rounded-[20px] max-w-[370px] mr-0 my-5 sm:mr-5 md:mr-10 feedback-card">
+	<div className="flex flex-col justify-between px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 feedback-card">
 		<img
 			src={quotes}
 			alt="double quotes"
