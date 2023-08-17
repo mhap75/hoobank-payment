@@ -1,4 +1,5 @@
 import { google, bill, apple } from "../assets";
+import H2 from "./H2";
 
 const Billing = () => {
 	return (
@@ -14,10 +15,7 @@ const Billing = () => {
 			</div>
 
 			<div className="layout-sectionInfo">
-				<h2 className="heading2">
-					Easily control your <br className="sm:block hidden" />
-					billing & invoicing.
-				</h2>
+				<H2 row1="Easily control your" row2="billing & invoicing." />
 				<p className="paragraph max-w-[470px] mt-5">
 					Take charge of your billing and invoicing with
 					Hoobank&apos;s intuitive platform. Simplify financial

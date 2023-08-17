@@ -1,8 +1,8 @@
 import { features } from "../constants";
-import { Button } from "./";
+import { Button, H2 } from "./";
 
 const FeatureCard = ({ icon, title, content }) => (
-	<div className="flex p-6 rounded-[20px] group-last:mb-6 mb-0 feature-card">
+	<div className="flex p-6 rounded-[20px] group-last:mb-6 mb-0 feature-card items-center gap-2">
 		<div className="w-[64px] h-[62px] rounded-full flexCenter bg-dimBlue">
 			<img
 				src={icon}
@@ -25,11 +25,10 @@ const Business = () => {
 	return (
 		<section id="features" className="layout-section gap-5">
 			<div className="sectionInfo">
-				<h2 className="heading2">
-					You do the business,
-					<br className="sm:block  hidden" />
-					we&#8217;ll handle the money
-				</h2>
+				<H2
+					row1="You do the business,"
+					row2="we&#8217;ll handle the money."
+				/>
 				<p className="paragraph max-w-[470px] mt-5">
 					With the right credit card, you can improve your financial
 					life by building credit, earning rewards and saving money.
